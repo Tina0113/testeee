@@ -25,6 +25,26 @@
 	<![endif]-->
 </head>
 
+<nav id="mainav">
+	<ul class="clear">
+	  <li class="active"><a href="index.html">Home</a></li>
+	  <li><a class="drop" href="#">Pages</a>
+		<ul>
+		  <li><a href="pages/gallery.html">Gallery</a></li>
+		  <li><a href="pages/full-width.html">Full Width</a></li>
+		  <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
+		  <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
+		  <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+		  <li><a href="pages/font-icons.html">Font Icons</a></li>
+		</ul>
+	  </li>
+  
+	  <li><a href="#">Link Text</a></li>
+	  <li><a href="#">Long Link Text</a></li>
+	</ul>
+</nav>
+
+
 <body class="home">
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
@@ -34,21 +54,22 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
 			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav pull-right">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="dropdown">More Pages <b class="caret"></b>
-						<!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a> -->
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li class="active"><a href="sidebar-right.html">Right Sidebar</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>
+
+
+			<nav id="mainav">
+				<ul class="clear">
+				  <li class="active"><a href="index.html">Home</a></li>
+				  <li><a class="drop" href="#">Pages</a>
+					<ul>
+					  <li><a href="sidebar-left.html">Gallery</a></li>
+					  <li><a href="sidebar-right.html">Full Width</a></li>
+					</ul>
+				  </li>
+				  <li><a href="contact.html">Contact</a></li>
 				</ul>
-			</div><!--/.nav-collapse -->
+			</nav>
+
+		
 		</div>
 	</div> 
 	<!-- /.navbar -->
