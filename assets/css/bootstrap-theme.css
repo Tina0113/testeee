@@ -1,6 +1,29 @@
 /*******************************/
 /*         Navigatioin         */
 /*******************************/
+
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:900; font-size:10px; line-height:10px;}
+
+/* Top Navigation */
+/*
+#mainav{display:block; float:left;}
+#mainav ul{text-transform:uppercase;}
+#mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none; text-align:left;}
+#mainav ul ul ul{left:180px; top:0;}
+#mainav li{display:block; float:left; position:relative; margin:0; padding:0;}
+#mainav li:last-child{margin-right:0;}
+#mainav li li{width:100%; margin:0;}
+#mainav li a{display:block; padding:20px;}
+#mainav li li a{border:solid; border-width:0 0 1px 0;}
+#mainav .drop{padding-left:15px;}
+#mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
+#mainav .drop::after, #mainav li li .drop::after{content:"\f0d7";}
+#mainav .drop::after{top:25px; left:5px;}
+#mainav li li .drop::after{top:15px; left:5px;}
+#mainav ul ul{visibility:hidden; opacity:0;}
+#mainav ul li:hover > ul{visibility:visible; opacity:1;}
+*/
+
 .navbar-inverse { border-radius: 0; background:rgba(0, 0, 0, .8); border-bottom:1px solid rgba(255, 255, 255, 0.15); min-height:100px; padding-top:25px; margin-bottom:0;}
 .navbar-inverse *:focus { outline: 0; }
 @media (max-width: 767px) {
